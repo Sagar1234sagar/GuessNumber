@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+  
+    margin: 2% auto;
+}
+body{
+    height: 50%;
+    width: 100%;
+}
+.title{
+    background-color: brown;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.first{
+    text-align: center;
+}
+.container{
+    width: 40vw;
+    height: 40vh;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% auto
+}
+.container h1{
+    color: white;
+    font-size: 2rem;
+}
+input{
+    width: 40%;
+    height: 40px;
+}
+.container .button {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    background-color: yellow;
+}
+.second{
+    color: white;
+    font-size: 1.25rem;
+    margin: 1.5px;
+    padding: 1px;
+}
